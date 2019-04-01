@@ -1,0 +1,134 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body{
+	background-image: url("b.png");
+}
+a{
+    color:white;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:lightskyblue;
+    text-decoration: none;
+    background-color:white;
+    border-radius: 5px;
+}
+        
+/*背景格式*/
+#body_s{
+    
+    background-repeat: no-repeat; 
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+}
+#header{
+    
+    font-family:华文中宋;
+    color:white;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 15px;
+    white-space: normal nowrap;
+}  
+
+#index_text{
+    position: relative;
+    
+    font-family: 华文新魏;
+    font-size:50px;
+    color:#7FFFD4;
+    text-align: center;
+    margin-top:200px;
+    white-space: normal nowrap; 
+}
+/*视频背景*/
+video{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+    /*灰色调*/
+    /*-webkit-filter:grayscale(100%)*/
+
+}
+
+/*背景图片*/
+#pic{
+	
+}
+
+.button{
+    font-family:华文中宋;
+    background: rgba(255, 255, 255, 0);
+   
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button1{
+    font-family:华文中宋;
+    background: rgba(63, 63, 204, 0.8);
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    color:lightskyblue;
+    text-decoration: none;
+    background-color:white;
+}
+#s_login{
+    text-align: center;
+    background-color: rgba(20, 15, 15, 0.5);
+    width:450px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+}
+
+
+.mask{
+    position: fixed;
+    z-index: 1000;
+
+    background-color: rgb(221, 214, 214);
+    opacity: 0.3;
+    
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+

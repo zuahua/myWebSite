@@ -1,0 +1,118 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
+    <head>
+	<title>流萤</title>
+
+	<%=javascript_include_tag "js/click" %>
+	<%=javascript_include_tag "js/jquery-3.3.1" %>
+	<%=javascript_include_tag "js/login" %>
+	<!-- <%=stylesheet_link_tag "firstpage" %> -->
+	<%=stylesheet_link_tag "login" %>
+
+        <link href="css/firstpage.css" rel="stylesheet" type="text/css"/>
+        <link href="css/login.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="js/jquery-3.3.1.js"></script>
+        
+        <script type="text/javascript" src="js/login.js"></script>
+
+
+
+    </head>
+
+    <body id="body_s" >
+            
+        <div id="header">
+            <a href="space.html">首页</a>
+            &nbsp;
+            &nbsp;
+            <a href="mainpage.html">流萤之思</a>
+            &nbsp;&nbsp;
+            <a href="http://inno-hua.xyz/" target="_blank">站竹博客</a>
+            &nbsp;&nbsp;
+            <a href="map/map.html" target="_blank">百度地图api</a>
+            <button id="log" style="margin-left: 800px" class="button">登录</button>
+            &nbsp;&nbsp;
+            <button id="reg" class="button1">注册</button>
+        </div>
+        
+        <div id="index_text">
+            <p style="white-space:normal nowrap"><center>书流萤</center></p>
+        </div>
+        
+        
+        
+        
+        
+
+
+        
+
+
+        <div id="login">
+                <h1 id="s_h1">用户登录</h1>
+                <form method="POST">
+                    <p>
+                        <label class="text">用户名:</label>
+                        <input type="text" id="usename"  class="fram"/>
+                        
+                    </p>
+                    
+                    
+                    <p>
+                        <label class="text">密码:</label>
+                        <input type="password" id="key" class="fram"/>
+                        
+                    </p>
+                    
+                    <div id="log_control">
+                        <button id="btn" onclick="login()">登录</button>
+                        
+                       
+                    </div>
+                </form>
+                <a id="lo_forgetkey" type="button">忘记密码</a>
+                <button class="lo_c_register" id="lo_register">注册>>></button>
+        </div>
+        <div class="mask"></div>
+
+
+        <div id="register_css">
+            <h1 id="s_h1">用户注册</h1>
+            <form method="POST">
+                <p>
+                    <label class="text" style="font-size:15px">用户名:</label>
+                    <input type="text" id="usename"  class="fram"/>
+                    
+                </p>
+                <p>
+                    <label class="text" style="font-size:14px">邮箱地址:</label>
+                    <input type="mail" id="mail"  class="fram"/>
+                    
+                </p>
+                
+                <p>
+                    <label class="text" style="font-size:15px">密码:</label>
+                    <input type="password" id="key1" class="fram"/>
+                    
+                </p>
+                <p>
+                    <label class="text" style="font-size:14px">确认密码:</label>
+                    <input type="password" id="key2" class="fram"/>
+                    
+                </p>
+                
+                <div id="log_control">
+                    <button id="btn" onclick="fun_register()">注册</button>
+                    <br/>
+                    
+                    
+                    <a href="" id="reg_login">已有账号?登录>></a>
+                </div>
+            </form>
+        </div>
+       
+    </body>
+</html>
