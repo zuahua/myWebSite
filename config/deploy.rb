@@ -3,7 +3,7 @@ lock "~> 3.11.0"
 
 set :application, "myWebSite"
 
-set :repo_url, "git@gitee.com:zuahua/flowfire.git"
+set :repo_url, "git@github.com:zuahua/myWebSite.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
