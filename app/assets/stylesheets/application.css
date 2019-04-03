@@ -16,6 +16,7 @@
 body{
 	background-image: url("b.png");
 }
+
 a{
     color:white;
     text-decoration: none;
@@ -49,8 +50,8 @@ a:hover{
     position: relative;
     
     font-family: 华文新魏;
-    font-size:50px;
-    color:#7FFFD4;
+    font-size:80px;
+    color:black;
     text-align: center;
     margin-top:200px;
     white-space: normal nowrap; 
